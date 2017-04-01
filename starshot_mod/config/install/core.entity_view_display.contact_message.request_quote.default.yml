@@ -1,0 +1,34 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.request_quote
+    - field.field.contact_message.request_quote.field_phone
+    - field.field.contact_message.request_quote.field_subject
+  module:
+    - options
+id: contact_message.request_quote.default
+targetEntityType: contact_message
+bundle: request_quote
+mode: default
+content:
+  field_phone:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_subject:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  message:
+    type: basic_string
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

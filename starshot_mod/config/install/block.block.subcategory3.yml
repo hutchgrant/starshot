@@ -1,0 +1,34 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.sub-category-3
+  module:
+    - node
+    - system
+id: subcategory3
+theme: starshot
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'system_menu_block:sub-category-3'
+settings:
+  id: 'system_menu_block:sub-category-3'
+  label: 'Gifts Category'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      service: service
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '/photo-gifts/*'
+    negate: false
+    context_mapping: {  }

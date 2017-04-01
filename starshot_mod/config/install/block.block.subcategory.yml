@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.sub-category
+  module:
+    - node
+    - system
+id: subcategory
+theme: starshot
+region: sidebar_first
+weight: -10
+provider: null
+plugin: 'system_menu_block:sub-category'
+settings:
+  id: 'system_menu_block:sub-category'
+  label: 'Print Category'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      service: service
+      service_2: service_2
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: "/custom-print/*\r\n/test-service2"
+    negate: false
+    context_mapping: {  }

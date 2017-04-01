@@ -1,0 +1,17 @@
+name: starshot_mod
+type: module
+core: 8.x
+dependencies:
+  - block
+  - block_content
+  - contact
+  - field
+  - image
+  - menu_ui
+  - node
+  - options
+  - path
+  - slick
+  - system
+  - text
+  - user

@@ -1,0 +1,26 @@
+{%
+  set classes = [
+    'block',
+    'block-' ~ configuration.provider|clean_class,
+    'block-' ~ plugin_id|clean_class,
+  ]
+%}
+<div{{ attributes.addClass(classes) }}>
+{% block content %}
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-19 col-xs-12"><a href="https://www.google.ca/maps/place/Pacific+Mall/@43.8250078,-79.3082467,16.5z/data=!4m5!3m4!1s0x89d4d409424ea6f1:0x8cd0ff3e3109d8af!8m2!3d43.8260053!4d-79.3062365"><img src="/themes/starshot/images/map.jpg" /></a></div>
+
+<div class="col-lg-2 col-md-2 col-sm-1">&nbsp;</div>
+
+<div class="col-lg-6 col-md-6 col-sm-10 col-xs-12">
+<p>&nbsp; Pacific Mall Heritage Town, C1-213</p>
+
+<p>&nbsp; G213-4300 Steeles Ave. East</p>
+
+<p>&nbsp; Markham, Ontario, L3R 0Y5</p>
+
+<p>&nbsp;</p>
+</div>
+</div>
+{% endblock %}
+</div>

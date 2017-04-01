@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: comments
+label: Comments
+recipients:
+  - yoursupportemail@gmail.com
+reply: "Hello,\r\n\r\nWe've received your comments, we will review and respond as soon as possible.\r\n\r\nThank you,\r\n\r\nStar Custom Products"
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

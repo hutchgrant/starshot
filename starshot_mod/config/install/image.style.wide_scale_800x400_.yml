@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: wide_scale_800x400_
+label: wide_scale(800x400)
+effects:
+  0612218a-1f22-421d-a190-f75c2396736d:
+    uuid: 0612218a-1f22-421d-a190-f75c2396736d
+    id: image_resize
+    weight: 1
+    data:
+      width: 800
+      height: 400

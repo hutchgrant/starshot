@@ -1,0 +1,66 @@
+{%
+  set classes = [
+    'block',
+    'block-' ~ configuration.provider|clean_class,
+    'block-' ~ plugin_id|clean_class,
+  ]
+%}
+<div{{ attributes.addClass(classes) }}>
+{% block content %}
+<div class="row featurette">
+<div class="col-md-7">
+<h2 class="featurette-heading"><span class="text-muted">Low </span>Prices</h2>
+
+<p class="lead">&nbsp;</p>
+
+<p class="lead">* No setup fee for custom&nbsp;logos or designs</p>
+
+<p class="lead">* 10 -&nbsp;15 % cheaper than market prices</p>
+</div>
+
+<div class="col-md-5"><img alt="store shelf" class="featurette-image img-responsive center-block" data-align="center" data-entity-type="file" data-entity-uuid="25c826aa-47c3-4c3b-979e-70272031412d" data-holder-rendered="true" data-src="holder.js/500x500/auto" height="296" src="/themes/starshot/images/feat_1.jpg" width="219" /></div>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<hr class="featurette-divider" />
+<div class="row featurette">
+<div class="col-md-7 col-md-push-5">
+<h2 class="featurette-heading"><span class="text-muted">Quality&nbsp;</span>Materials/ Products&nbsp;</h2>
+
+<p class="lead">&nbsp;</p>
+
+<p class="lead">* Choose the best quality materials from&nbsp;our&nbsp;Material&nbsp;Catalogues</p>
+
+<p class="lead">* More than 15 years of experienced craftsmanship</p>
+</div>
+
+<div class="col-md-5 col-md-pull-7"><img alt="counter" class="featurette-image img-responsive center-block" data-align="center" data-entity-type="file" data-entity-uuid="acaab05a-cbaa-47e9-992f-b0df6cb87148" height="359" src="/themes/starshot/images/feat_2.jpg" width="266" /></div>
+</div>
+
+<hr class="featurette-divider" />
+<div class="row featurette">
+<div class="col-md-7">
+<h2 class="featurette-heading"><span class="text-muted">Fast </span>Same Day/ 365 Day Services</h2>
+
+<p class="lead">&nbsp;</p>
+
+<p class="lead">* Walk-In service within 30 mins ~ 1Hr.</p>
+
+<p class="lead">* Open store 365 days a year</p>
+
+<p class="lead">* Convenient location in the Pacific Mall</p>
+</div>
+
+<div class="col-md-5"><img alt="store counter" class="featurette-image img-responsive center-block" data-align="center" data-entity-type="file" data-entity-uuid="7085031b-6add-48d1-9ca3-1dd63f5f1ff9" height="255" src="/themes/starshot/images/feat_3.jpg" width="343" /></div>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+{% endblock %}
+</div>

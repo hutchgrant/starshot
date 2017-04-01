@@ -1,0 +1,91 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.service_medium.body
+    - field.field.node.service_medium.field_image
+    - node.type.service_medium
+  module:
+    - slick
+    - text
+    - user
+id: node.service_medium.default
+targetEntityType: node
+bundle: service_medium
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    weight: 102
+    label: hidden
+    settings:
+      optionset: default
+      optionset_thumbnail: default2
+      skin: grid
+      skin_thumbnail: ''
+      image_style: x_
+      thumbnail_style: medium
+      thumbnail_effect: grid
+      media_switch: content
+      background: true
+      ratio: '1:1'
+      layout: ''
+      thumbnail_caption: ''
+      cache: 0
+      override: true
+      sizes: ''
+      overridables:
+        autoplay: autoplay
+        draggable: draggable
+        infinite: infinite
+        arrows: '0'
+        dots: '0'
+        mouseWheel: '0'
+        randomize: '0'
+        variableWidth: '0'
+      breakpoints:
+        xs:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        sm:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        md:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        lg:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        xl:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+      current_view_mode: default
+      caption:
+        title: '0'
+        alt: '0'
+      display: main
+      skin_arrows: ''
+      skin_dots: ''
+      item_id: ''
+      box_caption: ''
+      box_caption_custom: ''
+      box_style: ''
+      icon: false
+      responsive_image_style: ''
+    third_party_settings: {  }
+    type: slick_image
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

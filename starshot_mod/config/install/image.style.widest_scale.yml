@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: widest_scale
+label: widest_scale(800x200)
+effects:
+  19b936bb-14ff-4a45-855d-7ebc0f99a025:
+    uuid: 19b936bb-14ff-4a45-855d-7ebc0f99a025
+    id: image_resize
+    weight: 1
+    data:
+      width: 800
+      height: 200

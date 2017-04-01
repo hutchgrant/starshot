@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.service_large.body
+    - field.field.node.service_large.field_image
+    - node.type.service_large
+  module:
+    - text
+    - user
+id: node.service_large.teaser
+targetEntityType: node
+bundle: service_large
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  field_image: true

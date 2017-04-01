@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: request_quote
+label: 'Request Quote'
+recipients:
+  - yoursupportemail@gmail.com
+reply: "Hello,\r\n\r\nWe've received your request for a quote, we will review and respond as soon as possible.\r\n\r\nThank you,\r\n\r\nStar Custom Products"
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

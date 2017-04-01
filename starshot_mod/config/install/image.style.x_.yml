@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: x_
+label: X-Large(600x800)
+effects:
+  44f3d4e0-7a25-4823-95fe-696744aba85f:
+    uuid: 44f3d4e0-7a25-4823-95fe-696744aba85f
+    id: image_scale
+    weight: 1
+    data:
+      width: 600
+      height: 800
+      upscale: false

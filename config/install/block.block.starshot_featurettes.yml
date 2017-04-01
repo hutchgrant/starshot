@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:92f4528c-c6cf-4107-9145-631d7a6e7ad8'
+  module:
+    - block_content
+    - system
+  theme:
+    - starshot
+id: featurettes
+theme: starshot
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:92f4528c-c6cf-4107-9145-631d7a6e7ad8'
+settings:
+  id: 'block_content:92f4528c-c6cf-4107-9145-631d7a6e7ad8'
+  label: featurettes
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.comments
+    - field.storage.contact_message.field_phone
+id: contact_message.comments.field_phone
+field_name: field_phone
+entity_type: contact_message
+bundle: comments
+label: Phone
+description: 'Phone number you can be reached at. 1 (###) ###-####'
+required: false
+translatable: true
+default_value:
+  -
+    value: '1 (###) ###-####'
+default_value_callback: ''
+settings: {  }
+field_type: string
